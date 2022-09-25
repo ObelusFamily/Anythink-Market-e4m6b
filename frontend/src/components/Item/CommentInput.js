@@ -2,7 +2,7 @@ import React from "react";
 import agent from "../../agent";
 import { connect } from "react-redux";
 import { ADD_COMMENT } from "../../constants/actionTypes";
-import placeholderImg from '../../imgs/placeholder.png';
+import placeholderImg from "../../imgs/placeholder.png";
 
 const mapDispatchToProps = (dispatch) => ({
   onSubmit: (payload) => dispatch({ type: ADD_COMMENT, payload }),

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../imgs/topbar_logo.png";
-import placeholderImg from '../imgs/placeholder.png';
+import placeholderImg from "../imgs/placeholder.png";
 
 const LoggedOutView = (props) => {
   if (!props.currentUser) {
